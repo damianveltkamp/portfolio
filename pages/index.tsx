@@ -46,10 +46,10 @@ const Home: NextPage = () => {
           <ul>
             <li>Creating design systems.</li>
             <li>
-              Improving our client's websites, web apps, and development
+              Improving our client&#39;s websites, web apps, and development
               structure.
             </li>
-            <li>Maintaining our client's websites and web apps.</li>
+            <li>Maintaining our client&#39;s websites and web apps.</li>
           </ul>
         </SectionContainer>
         <SectionContainer>
@@ -94,10 +94,10 @@ const Home: NextPage = () => {
           </ul>
         </SectionContainer>
         <SectionContainer>
-          <h2>Degree's</h2>
+          <h2>Degree&#39;s</h2>
           <ul>
             <li>
-              Bachelor's degree{" "}
+              Bachelor&#39;s degree{" "}
               <a href="https://www.hva.nl/">
                 Communication and multimedia design at the HVA
               </a>
