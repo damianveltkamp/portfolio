@@ -19,6 +19,43 @@ const SectionContainer = styled("section")`
   }
 `;
 
+const CardsContainer = styled("div")`
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+`;
+
+const Card = styled("a")`
+  position: relative;
+  background: #999;
+  padding: 120px;
+  color: #fff;
+  overflow: hidden;
+
+  & > span {
+    transition: 250ms ease-in-out;
+  }
+
+  &:hover,
+  &:focus {
+    & > span {
+      transform: scale(1.1);
+    }
+  }
+`;
+
+const CardContentContainer = styled("div")`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+`;
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -53,6 +90,41 @@ const Home: NextPage = () => {
             </li>
             <li>Maintaining our client&#39;s websites and web apps.</li>
           </ul>
+        </SectionContainer>
+        <SectionContainer>
+          <h2>On projects such as</h2>
+          <CardsContainer>
+            <Card href="https://www.maandag.nl/">
+              <Image
+                layout="fill"
+                src="/projects/maandag.png"
+                alt="Maandag homepage screenshot"
+              />
+              <CardContentContainer>
+                <h3>Maandag</h3>
+              </CardContentContainer>
+            </Card>
+            <Card href="https://design.maandag.nl/2b79382ac/p/56989d-overview">
+              <Image
+                layout="fill"
+                src="/projects/maandag-design-system.png"
+                alt="Maandag homepage screenshot"
+              />
+              <CardContentContainer>
+                <h3>Maandag design system</h3>
+              </CardContentContainer>
+            </Card>
+            <Card href="https://www.carucontainers.com/nl-nl">
+              <Image
+                layout="fill"
+                src="/projects/caru-containers.png"
+                alt="Maandag homepage screenshot"
+              />
+              <CardContentContainer>
+                <h3>Caru</h3>
+              </CardContentContainer>
+            </Card>
+          </CardsContainer>
         </SectionContainer>
         <SectionContainer>
           <h2>What I mostly work with:</h2>
