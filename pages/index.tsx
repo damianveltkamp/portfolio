@@ -11,7 +11,7 @@ const MainContainer = styled("main")`
 const SectionContainer = styled("section")`
   padding: 0 20px;
   &:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 
   > *:not(:last-child) {
