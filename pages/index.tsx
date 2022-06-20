@@ -82,14 +82,11 @@ const Home: NextPage = () => {
             Currently working at{" "}
             <a href="https://www.deptagency.com/nl-nl/">DEPT®</a>
           </h2>
-          <ul>
-            <li>Creating design systems.</li>
-            <li>
-              Improving our client&#39;s websites, web apps, and development
-              structure.
-            </li>
-            <li>Maintaining our client&#39;s websites and web apps.</li>
-          </ul>
+          <p>
+            Where I work on creating design systems, improveing our client&#39;s
+            websites, web apps, and development structure, and maintaining our
+            client&#39;s websites and web apps.
+          </p>
         </SectionContainer>
         <SectionContainer>
           <h2>On projects such as</h2>
@@ -127,7 +124,7 @@ const Home: NextPage = () => {
           </CardsContainer>
         </SectionContainer>
         <SectionContainer>
-          <h2>What I mostly work with:</h2>
+          <h2>Where I mostly work with:</h2>
           <ul>
             <li>Typescript</li>
             <li>React</li>
@@ -143,16 +140,14 @@ const Home: NextPage = () => {
             I like tinkering with my development{" "}
             <a href="https://github.com/damianveltkamp/dotfiles">setup</a>:
           </h2>
-          <ul>
-            <li>
-              <a href="https://neovim.io/">Neovim</a>
-            </li>
-            <li>
-              <a href="https://github.com/tmux/tmux/wiki">Tmux</a>
-            </li>
-            <li>Zsh scripting</li>
-            <li>Automation</li>
-          </ul>
+          <p>
+            Always looking at optimizing my workflow and automating repetitive
+            tasks. Thats why I picked up skills like zsh scripting and work with
+            tools such as <a href="https://neovim.io/">Neovim</a> and{" "}
+            <a href="https://github.com/tmux/tmux/wiki">Tmux</a>. In my terminal
+            I feel most confident and I don&#39;t need any other tool besides
+            it.
+          </p>
         </SectionContainer>
         <SectionContainer>
           <h2>Communication and multimedia design</h2>
@@ -165,23 +160,6 @@ const Home: NextPage = () => {
             <li>Visual design</li>
             <li>Front-end development</li>
             <li>Back-end development</li>
-          </ul>
-        </SectionContainer>
-        <SectionContainer>
-          <h2>Degree&#39;s</h2>
-          <ul>
-            <li>
-              Bachelor&#39;s degree{" "}
-              <a href="https://www.hva.nl/">
-                Communication and multimedia design at the HVA
-              </a>
-            </li>
-            <li>
-              VMBO level 4{" "}
-              <a href="https://www.regiocollege.nl/">
-                Application developer at ROC
-              </a>
-            </li>
           </ul>
         </SectionContainer>
       </MainContainer>

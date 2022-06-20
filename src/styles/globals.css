@@ -8,6 +8,7 @@ body {
 
 body {
   padding: 60px 0;
+  font-size: 1.25rem;
 }
 
 a {
@@ -27,7 +28,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 1.563rem;
+  font-size: 1.953rem;
   line-height: 150%;
 }
 
