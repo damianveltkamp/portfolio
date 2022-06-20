@@ -4,11 +4,12 @@ import Image from "next/image";
 import styled from "@emotion/styled";
 
 const MainContainer = styled("main")`
-  max-width: 650px;
+  max-width: 680px;
   margin: 0 auto;
 `;
 
 const SectionContainer = styled("section")`
+  padding: 0 20px;
   &:not(:last-child) {
     margin-bottom: 40px;
   }
