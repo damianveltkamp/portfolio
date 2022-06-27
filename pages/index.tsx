@@ -80,7 +80,13 @@ const Home: NextPage = () => {
         <SectionContainer>
           <h2>
             Currently working at{" "}
-            <a href="https://www.deptagency.com/nl-nl/">DEPT®</a>
+            <a
+              href="https://www.deptagency.com/nl-nl/"
+              rel="noreferrer "
+              target="_blank"
+            >
+              DEPT®
+            </a>
           </h2>
           <p>
             Where I work on creating design systems, improveing our client&#39;s
@@ -91,7 +97,11 @@ const Home: NextPage = () => {
         <SectionContainer>
           <h2>On projects such as</h2>
           <CardsContainer>
-            <Card href="https://www.maandag.nl/">
+            <Card
+              href="https://www.maandag.nl/"
+              rel="noreferrer "
+              target="_blank"
+            >
               <Image
                 layout="fill"
                 src="/projects/maandag.png"
@@ -101,7 +111,11 @@ const Home: NextPage = () => {
                 <h3>Maandag</h3>
               </CardContentContainer>
             </Card>
-            <Card href="https://design.maandag.nl/2b79382ac/p/56989d-overview">
+            <Card
+              href="https://design.maandag.nl/2b79382ac/p/56989d-overview"
+              rel="noreferrer "
+              target="_blank"
+            >
               <Image
                 layout="fill"
                 src="/projects/maandag-design-system.png"
@@ -111,7 +125,11 @@ const Home: NextPage = () => {
                 <h3>Maandag design system</h3>
               </CardContentContainer>
             </Card>
-            <Card href="https://www.carucontainers.com/nl-nl">
+            <Card
+              href="https://www.carucontainers.com/nl-nl"
+              rel="noreferrer "
+              target="_blank"
+            >
               <Image
                 layout="fill"
                 src="/projects/caru-containers.png"
@@ -138,15 +156,32 @@ const Home: NextPage = () => {
         <SectionContainer>
           <h2>
             I like tinkering with my development{" "}
-            <a href="https://github.com/damianveltkamp/dotfiles">setup</a>:
+            <a
+              href="https://github.com/damianveltkamp/dotfiles"
+              rel="noreferrer "
+              target="_blank"
+            >
+              setup
+            </a>
+            :
           </h2>
           <p>
             Always looking at optimizing my workflow and automating repetitive
             tasks. Thats why I picked up skills like zsh scripting and work with
-            tools such as <a href="https://neovim.io/">Neovim</a> and{" "}
-            <a href="https://github.com/tmux/tmux/wiki">Tmux</a>. In my terminal
-            I feel most confident and I don&#39;t need any other tool besides
-            it.
+            tools such as{" "}
+            <a href="https://neovim.io/" rel="noreferrer " target="_blank">
+              Neovim
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://github.com/tmux/tmux/wiki"
+              rel="noreferrer "
+              target="_blank"
+            >
+              Tmux
+            </a>
+            . In my terminal I feel most confident and I don&#39;t need any
+            other tool besides it.
           </p>
         </SectionContainer>
         <SectionContainer>
