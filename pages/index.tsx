@@ -72,9 +72,9 @@ const Home: NextPage = () => {
             I have around seven years of experience with building front-end
             projects, in which I have been working as a professional for about
             two years for multiple clients. In these seven years, I have done
-            two half-year Internships for two different companies where I worked
-            full-time as a front-end developer in a multi-disciplinary team. Now
-            I am working as a full-time remote front-end developer.
+            multiple internships for multiple companies where I worked full-time
+            as a front-end developer in a multi-disciplinary team. Now I am
+            working as a full-time remote front-end developer.
           </p>
         </SectionContainer>
         <SectionContainer>
