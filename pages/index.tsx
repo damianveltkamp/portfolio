@@ -150,6 +150,20 @@ const Home: NextPage = () => {
                 <h3>Hortus</h3>
               </CardContentContainer>
             </Card>
+            <Card
+              href="https://www.juridischloket.nl/"
+              rel="noreferrer "
+              target="_blank"
+            >
+              <Image
+                layout="fill"
+                src="/projects/hetjuridischloket.png"
+                alt="Het Juridisch Loket homepage screenshot"
+              />
+              <CardContentContainer>
+                <h3>Het Juridisch Loket</h3>
+              </CardContentContainer>
+            </Card>
           </CardsContainer>
         </SectionContainer>
         <SectionContainer>
