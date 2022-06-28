@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import styled from "@emotion/styled";
+import { ProjectCard } from "../src/components/ProjectCard/ProjectCard";
+import { ProjectCardsContainer } from "../src/components/ProjectCard/styles/ProjectCard";
 
 const MainContainer = styled("main")`
   max-width: 680px;
@@ -17,44 +18,6 @@ const SectionContainer = styled("section")`
   > *:not(:last-child) {
     margin-bottom: 25px;
   }
-`;
-
-const CardsContainer = styled("div")`
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 20px;
-`;
-
-const Card = styled("a")`
-  position: relative;
-  background: #999;
-  padding: 120px;
-  color: #fff;
-  overflow: hidden;
-  border-radius: 10px;
-
-  & > span {
-    transition: 250ms ease-in-out;
-  }
-
-  &:hover,
-  &:focus {
-    & > span {
-      transform: scale(1.1);
-    }
-  }
-`;
-
-const CardContentContainer = styled("div")`
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
 `;
 
 const Home: NextPage = () => {
@@ -97,74 +60,58 @@ const Home: NextPage = () => {
         </SectionContainer>
         <SectionContainer>
           <h2>On projects such as</h2>
-          <CardsContainer>
-            <Card
+          <ProjectCardsContainer>
+            <ProjectCard
+              title="Maandag"
               href="https://www.maandag.nl/"
               rel="noreferrer "
               target="_blank"
-            >
-              <Image
-                layout="fill"
-                src="/projects/maandag.png"
-                alt="Maandag homepage screenshot"
-              />
-              <CardContentContainer>
-                <h3>Maandag</h3>
-              </CardContentContainer>
-            </Card>
-            <Card
+              image={{
+                src: "/projects/maandag.png",
+                alt: "Maandag homepage screenshot",
+              }}
+            />
+            <ProjectCard
               href="https://design.maandag.nl/2b79382ac/p/56989d-overview"
               rel="noreferrer "
               target="_blank"
-            >
-              <Image
-                layout="fill"
-                src="/projects/maandag-design-system.png"
-                alt="Maandag homepage screenshot"
-              />
-              <CardContentContainer>
-                <h3>Maandag design system</h3>
-              </CardContentContainer>
-            </Card>
-            <Card
+              image={{
+                src: "/projects/maandag-design-system.png",
+                alt: "Maandag homepage screenshot",
+              }}
+              title="Maandag design system"
+            />
+            <ProjectCard
               href="https://www.carucontainers.com/nl-nl"
               rel="noreferrer "
               target="_blank"
-            >
-              <Image
-                layout="fill"
-                src="/projects/caru-containers.png"
-                alt="Caru homepage screenshot"
-              />
-              <CardContentContainer>
-                <h3>Caru</h3>
-              </CardContentContainer>
-            </Card>
-            <Card href="https://hortus.nl/" rel="noreferrer " target="_blank">
-              <Image
-                layout="fill"
-                src="/projects/hortus.png"
-                alt="Hortus homepage screenshot"
-              />
-              <CardContentContainer>
-                <h3>Hortus</h3>
-              </CardContentContainer>
-            </Card>
-            <Card
+              image={{
+                src: "/projects/caru-containers.png",
+                alt: "Caru homepage screenshot",
+              }}
+              title="Caru"
+            />
+            <ProjectCard
+              href="https://hortus.nl/"
+              rel="noreferrer "
+              target="_blank"
+              image={{
+                src: "/projects/hortus.png",
+                alt: "Hortus homepage screenshot",
+              }}
+              title="Hortus"
+            />
+            <ProjectCard
               href="https://www.juridischloket.nl/"
               rel="noreferrer "
               target="_blank"
-            >
-              <Image
-                layout="fill"
-                src="/projects/hetjuridischloket.png"
-                alt="Het Juridisch Loket homepage screenshot"
-              />
-              <CardContentContainer>
-                <h3>Het Juridisch Loket</h3>
-              </CardContentContainer>
-            </Card>
-          </CardsContainer>
+              image={{
+                src: "/projects/hetjuridischloket.png",
+                alt: "Het Juridisch Loket homepage screenshot",
+              }}
+              title="Het Juridisch Loket"
+            />
+          </ProjectCardsContainer>
         </SectionContainer>
         <SectionContainer>
           <h2>Where I mostly work with:</h2>
