@@ -134,10 +134,20 @@ const Home: NextPage = () => {
               <Image
                 layout="fill"
                 src="/projects/caru-containers.png"
-                alt="Maandag homepage screenshot"
+                alt="Caru homepage screenshot"
               />
               <CardContentContainer>
                 <h3>Caru</h3>
+              </CardContentContainer>
+            </Card>
+            <Card href="https://hortus.nl/" rel="noreferrer " target="_blank">
+              <Image
+                layout="fill"
+                src="/projects/hortus.png"
+                alt="Hortus homepage screenshot"
+              />
+              <CardContentContainer>
+                <h3>Hortus</h3>
               </CardContentContainer>
             </Card>
           </CardsContainer>
