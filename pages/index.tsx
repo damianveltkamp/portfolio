@@ -31,6 +31,7 @@ const Card = styled("a")`
   padding: 120px;
   color: #fff;
   overflow: hidden;
+  border-radius: 10px;
 
   & > span {
     transition: 250ms ease-in-out;
