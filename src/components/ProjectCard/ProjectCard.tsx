@@ -2,7 +2,7 @@ import Image from "next/image";
 import {
   ProjectCardContainer,
   ProjectCardContentContainer,
-} from "./styles/ProjectCard";
+} from "./styles/ProjectCard.styles";
 
 type ProjectCardProps = {
   title: string;

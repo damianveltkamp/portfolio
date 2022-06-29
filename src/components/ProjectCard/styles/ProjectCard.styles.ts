@@ -13,6 +13,7 @@ export const ProjectCardContainer = styled("a")`
   color: #fff;
   overflow: hidden;
   border-radius: 10px;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 
   & > span {
     transition: 250ms ease-in-out;

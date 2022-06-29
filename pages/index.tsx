@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styled from "@emotion/styled";
 import { ProjectCard } from "../src/components/ProjectCard/ProjectCard";
-import { ProjectCardsContainer } from "../src/components/ProjectCard/styles/ProjectCard";
+import { ProjectCardsContainer } from "../src/components/ProjectCard/styles/ProjectCard.styles";
 
 const MainContainer = styled("main")`
   max-width: 680px;
