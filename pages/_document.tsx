@@ -34,7 +34,6 @@ export default function Document() {
           color="#5bbad5"
         />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
       </Head>
       <body>
         <Main />
