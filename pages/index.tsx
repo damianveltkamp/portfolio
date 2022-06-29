@@ -24,9 +24,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Damian Veltkamp</title>
+        <title>Damian Veltkamp front-end webdeveloper portfolio</title>
         <meta name="description" content="Portfolio of Damian Veltkamp" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <MainContainer>

@@ -9,8 +9,7 @@ const HtmlContainer = styled(Html)`
 export default function Document() {
   return (
     <HtmlContainer>
-      <head>
-        <title>Damian Veltkamp front-end webdeveloper portfolio</title>
+      <Head>
         <link
           rel="apple-touch-icon"
           sizes="144x144"
@@ -36,7 +35,7 @@ export default function Document() {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-      </head>
+      </Head>
       <body>
         <Main />
         <NextScript />
