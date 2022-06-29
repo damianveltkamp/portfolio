@@ -10,6 +10,7 @@ export default function Document() {
   return (
     <HtmlContainer>
       <head>
+        <title>Front-end webdeveloper portfolio of Damian Veltkamp</title>
         <link
           rel="apple-touch-icon"
           sizes="144x144"
