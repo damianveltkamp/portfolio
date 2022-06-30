@@ -28,7 +28,6 @@ const HeaderContainer = styled("header")`
   padding: 20px 20px;
   align-items: center;
   justify-content: space-between;
-  /* background-color: #161d27; */
 `;
 
 const Home: NextPage = () => {
