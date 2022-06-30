@@ -39,10 +39,14 @@ const Home: NextPage = () => {
       </Head>
 
       <HeaderContainer>
-        <a href="https://www.damianveltkamp.tech/">
+        <a
+          aria-label="Damian Veltkamp logo"
+          href="https://www.damianveltkamp.tech/"
+        >
           <Icon width="45px" icon={DamianLogo} />
         </a>
         <a
+          aria-label="Github logo"
           href="https://github.com/damianveltkamp"
           target="_blank"
           rel="noreferrer"
