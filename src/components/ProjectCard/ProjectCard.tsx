@@ -7,23 +7,15 @@ import {
 type ProjectCardProps = {
   title: string;
   href: string;
-  rel: string;
-  target: string;
   image: {
     src: string;
     alt: string;
   };
 };
 
-export const ProjectCard = ({
-  title,
-  href,
-  rel,
-  target,
-  image,
-}: ProjectCardProps) => {
+export const ProjectCard = ({ title, href, image }: ProjectCardProps) => {
   return (
-    <ProjectCardContainer href={href} rel={rel} target={target}>
+    <ProjectCardContainer href={href} rel="noreferrer " target="_blank">
       <Image layout="fill" src={image.src} alt={image.alt} />
       <ProjectCardContentContainer>
         <h3>{title}</h3>

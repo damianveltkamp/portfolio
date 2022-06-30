@@ -1,7 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styled from "@emotion/styled";
+import DamianLogo from "../src/icons/logo.svg";
+import GithubLogo from "../src/icons/github-brands.svg";
 import { ProjectCard } from "../src/components/ProjectCard/ProjectCard";
+import { Icon } from "../src/components/Icon/Icon";
 import { ProjectCardsContainer } from "../src/components/ProjectCard/styles/ProjectCard.styles";
 
 const MainContainer = styled("main")`
@@ -20,6 +23,14 @@ const SectionContainer = styled("section")`
   }
 `;
 
+const HeaderContainer = styled("header")`
+  display: flex;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #161d27; */
+`;
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -28,6 +39,18 @@ const Home: NextPage = () => {
         <meta name="description" content="Portfolio of Damian Veltkamp" />
       </Head>
 
+      <HeaderContainer>
+        <a href="https://www.damianveltkamp.tech/">
+          <Icon width="45px" icon={DamianLogo} />
+        </a>
+        <a
+          href="https://github.com/damianveltkamp"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Icon icon={GithubLogo} />
+        </a>
+      </HeaderContainer>
       <MainContainer>
         <SectionContainer>
           <h1>Greetings, my name is Damian Veltkamp</h1>
@@ -63,8 +86,6 @@ const Home: NextPage = () => {
             <ProjectCard
               title="Maandag"
               href="https://www.maandag.nl/"
-              rel="noreferrer "
-              target="_blank"
               image={{
                 src: "/projects/maandag.png",
                 alt: "Maandag homepage screenshot",
@@ -72,8 +93,6 @@ const Home: NextPage = () => {
             />
             <ProjectCard
               href="https://design.maandag.nl/2b79382ac/p/56989d-overview"
-              rel="noreferrer "
-              target="_blank"
               image={{
                 src: "/projects/maandag-design-system.png",
                 alt: "Maandag homepage screenshot",
@@ -82,8 +101,6 @@ const Home: NextPage = () => {
             />
             <ProjectCard
               href="https://www.carucontainers.com/nl-nl"
-              rel="noreferrer "
-              target="_blank"
               image={{
                 src: "/projects/caru-containers.png",
                 alt: "Caru homepage screenshot",
@@ -92,8 +109,6 @@ const Home: NextPage = () => {
             />
             <ProjectCard
               href="https://hortus.nl/"
-              rel="noreferrer "
-              target="_blank"
               image={{
                 src: "/projects/hortus.png",
                 alt: "Hortus homepage screenshot",
@@ -102,8 +117,6 @@ const Home: NextPage = () => {
             />
             <ProjectCard
               href="https://www.juridischloket.nl/"
-              rel="noreferrer "
-              target="_blank"
               image={{
                 src: "/projects/hetjuridischloket.png",
                 alt: "Het Juridisch Loket homepage screenshot",

@@ -7,8 +7,11 @@ body {
 }
 
 body {
-  padding: 60px 0;
   font-size: 1.25rem;
+}
+
+main {
+  padding: 40px 0;
 }
 
 a {
