@@ -63,7 +63,7 @@ const Home: NextPage = () => {
           <p>
             I have around seven years of experience in building front-end and
             back-end projects, in which I have been working as a professional
-            for about two years for multiple clients. In these seven years, I
+            for about three years for multiple clients. In these seven years, I
             have done four internships for three different companies where I
             worked full-time as a front-end developer and full-stack developer
             in a multi-disciplinary team. Now I am working as a full-time remote
