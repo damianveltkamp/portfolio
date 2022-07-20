@@ -35,7 +35,10 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Damian Veltkamp front-end webdeveloper portfolio</title>
-        <meta name="description" content="Portfolio of Damian Veltkamp" />
+        <meta
+          name="description"
+          content="Front-end webdeveloper portfolio of Damian Veltkamp"
+        />
       </Head>
 
       <HeaderContainer>
