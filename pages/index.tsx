@@ -34,10 +34,10 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Damian Veltkamp front-end webdeveloper portfolio</title>
+        <title>Damian Veltkamp webdeveloper portfolio</title>
         <meta
           name="description"
-          content="Front-end webdeveloper portfolio of Damian Veltkamp"
+          content="Webdeveloper portfolio of Damian Veltkamp"
         />
       </Head>
 
@@ -59,14 +59,15 @@ const Home: NextPage = () => {
       </HeaderContainer>
       <MainContainer>
         <SectionContainer>
-          <h1>Greetings, my name is Damian Veltkamp</h1>
+          <h1>Greetings, my name is Damian Veltkamp and I am a webdeveloper</h1>
           <p>
-            I have around seven years of experience with building front-end
-            projects, in which I have been working as a professional for about
-            two years for multiple clients. In these seven years, I have done
-            multiple internships for multiple companies where I worked full-time
-            as a front-end developer in a multi-disciplinary team. Now I am
-            working as a full-time remote front-end developer.
+            I have around seven years of experience in building front-end and
+            back-end projects, in which I have been working as a professional
+            for about two years for multiple clients. In these seven years, I
+            have done four internships for three different companies where I
+            worked full-time as a front-end developer and full-stack developer
+            in a multi-disciplinary team. Now I am working as a full-time remote
+            front-end developer.
           </p>
         </SectionContainer>
         <SectionContainer>
