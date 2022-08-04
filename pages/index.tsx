@@ -186,10 +186,11 @@ const Home: NextPage = () => {
             a more broad curriculum that handled subjects like:
           </p>
           <ul>
-            <li>User experience</li>
-            <li>Visual design</li>
             <li>Front-end development</li>
             <li>Back-end development</li>
+            <li>Data visualization</li>
+            <li>User experience</li>
+            <li>Visual design</li>
           </ul>
         </SectionContainer>
       </MainContainer>
