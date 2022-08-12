@@ -139,11 +139,11 @@ const Home: NextPage = () => {
         <Heading lvl="h2">Where I mostly work with:</Heading>
         <List
           items={[
-            "Typescripte",
-            "React",
+            "Typescript",
             "NextJs",
+            "React",
             "Storybook",
-            "Jest",
+            "Styled components",
             "Html",
             "Scss",
           ]}
