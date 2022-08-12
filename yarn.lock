@@ -994,10 +994,10 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@damianveltkamp/dvds@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@damianveltkamp/dvds/-/dvds-0.1.13.tgz#41e817c9c022228d13ce104501e1446d1430486a"
-  integrity sha512-/eArXDrnCyIj62dK6qoxpMX/045aKQEPfFhegH1M24+Hd0ArrGWa10J356WcMi+sDwIo6sNasERcIg5yb3enQA==
+"@damianveltkamp/dvds@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@damianveltkamp/dvds/-/dvds-0.1.14.tgz#e0ad998f85a517f9692d453a48eb097d3e9e2c9e"
+  integrity sha512-hIRyluxeueYFin6oYNLk/DudrUg0/bC7ljNP7MgnZfr+iHkFJ/BREDP5y97J5Xa/2rSVlT59BxoTBYJINRPFOw==
   dependencies:
     "@babel/runtime" "^7.18.9"
     "@storybook/theming" "^6.5.10"
