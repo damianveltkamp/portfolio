@@ -1,9 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import styled from "@emotion/styled";
-import DamianLogo from "../src/icons/logo.svg";
-import GithubLogo from "../src/icons/github-brands.svg";
-import { Icon } from "../src/components/Icon/Icon";
 import {
   ContentBlock,
   Heading,
@@ -13,13 +9,6 @@ import {
   ProjectCard,
   ProjectContainer,
 } from "@damianveltkamp/dvds";
-
-const HeaderContainer = styled("header")`
-  display: flex;
-  padding: 20px 20px;
-  align-items: center;
-  justify-content: space-between;
-`;
 
 const Home: NextPage = () => {
   return (
@@ -31,23 +20,6 @@ const Home: NextPage = () => {
           content="Webdeveloper portfolio of Damian Veltkamp"
         />
       </Head>
-
-      <HeaderContainer>
-        <a
-          aria-label="Damian Veltkamp logo"
-          href="https://www.damianveltkamp.tech/"
-        >
-          <Icon width="45px" icon={DamianLogo} />
-        </a>
-        <a
-          aria-label="Github logo"
-          href="https://github.com/damianveltkamp"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Icon icon={GithubLogo} />
-        </a>
-      </HeaderContainer>
       <ContentBlock>
         <Heading lvl="h1">
           Greetings, my name is Damian Veltkamp and I am a webdeveloper
