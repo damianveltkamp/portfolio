@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import type { AppProps } from "next/app";
-import { MainContainer, theme } from "@damianveltkamp/dvds";
+import { Footer, MainContainer, theme } from "@damianveltkamp/dvds";
 import { ThemeProvider } from "@emotion/react";
 import DamianLogo from "../src/icons/logo.svg";
 import GithubLogo from "../src/icons/github-brands.svg";
@@ -15,7 +15,6 @@ const HeaderContainer = styled("header")`
 `;
 
 function MyApp({ Component, pageProps }: AppProps) {
-  console.log(theme);
   return (
     <ThemeProvider theme={theme}>
       <HeaderContainer>
@@ -37,6 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <MainContainer>
         <Component {...pageProps} />
       </MainContainer>
+      <Footer />
     </ThemeProvider>
   );
 }
