@@ -132,9 +132,9 @@ const Home: NextPage = () => {
         <Paragraph>
           Always looking at optimizing my workflow and automating repetitive
           tasks. Thats why I picked up skills like zsh scripting and work with
-          tools such as <Link text="Neovim" href="https://neovim.io/" />
-          and <Link text="Tmux" href="https://github.com/tmux/tmux/wiki" />. In
-          my terminal I feel most confident and I don&#39;t need any other tool
+          tools such as <Link text="Neovim" href="https://neovim.io/" /> and{" "}
+          <Link text="Tmux" href="https://github.com/tmux/tmux/wiki" />. In my
+          terminal I feel most confident and I don&#39;t need any other tool
           besides it.
         </Paragraph>
       </ContentBlock>
