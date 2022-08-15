@@ -31,9 +31,9 @@ const Home: NextPage = () => {
         </Paragraph>
         <Paragraph>
           In these seven years, I have done four internships for three different
-          companies where I worked full-time as a front-end developer and
-          full-stack developer in a multi-disciplinary team. Now I am working as
-          a full-time remote front-end developer.
+          companies where I worked full-time as a front-end developer in a
+          multi-disciplinary team. Now I am working as a full-time remote
+          front-end developer.
         </Paragraph>
       </ContentBlock>
       <ContentBlock>
