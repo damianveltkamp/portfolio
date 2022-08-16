@@ -66,7 +66,12 @@ export default function Document() {
             crossOrigin=""
           />
 
-          <link rel="stylesheet" type="text/css" href="/fonts/fonts.css" />
+          <link
+            rel="preload"
+            type="text/css"
+            href="/fonts/fonts.css"
+            as="style"
+          />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#1f2937" />
         </Head>
