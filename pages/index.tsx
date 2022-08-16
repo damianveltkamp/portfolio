@@ -39,7 +39,11 @@ const Home: NextPage = () => {
       <ContentBlock>
         <Heading lvl="h2">
           Currently working at{" "}
-          <Link text="DEPT®" href="https://www.deptagency.com/nl-nl/" />
+          <Link
+            text="DEPT®"
+            href="https://www.deptagency.com/nl-nl/"
+            isExternal={true}
+          />
         </Heading>
         <Paragraph>
           Where I work on creating design systems, improveing our client&#39;s
@@ -127,15 +131,21 @@ const Home: NextPage = () => {
           <Link
             text="setup"
             href="https://github.com/damianveltkamp/dotfiles"
+            isExternal={true}
           />
         </Heading>
         <Paragraph>
           Always looking at optimizing my workflow and automating repetitive
           tasks. Thats why I picked up skills like zsh scripting and work with
-          tools such as <Link text="Neovim" href="https://neovim.io/" /> and{" "}
-          <Link text="Tmux" href="https://github.com/tmux/tmux/wiki" />. In my
-          terminal I feel most confident and I don&#39;t need any other tool
-          besides it.
+          tools such as{" "}
+          <Link text="Neovim" href="https://neovim.io/" isExternal={true} /> and{" "}
+          <Link
+            text="Tmux"
+            href="https://github.com/tmux/tmux/wiki"
+            isExternal={true}
+          />
+          . In my terminal I feel most confident and I don&#39;t need any other
+          tool besides it.
         </Paragraph>
       </ContentBlock>
       <ContentBlock>
