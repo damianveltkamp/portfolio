@@ -12,7 +12,7 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Damian Veltkamp webdeveloper portfolio</title>
         <meta
@@ -154,7 +154,7 @@ const Home: NextPage = () => {
           ]}
         />
       </ContentBlock>
-    </div>
+    </>
   );
 };
 
