@@ -126,29 +126,6 @@ const Home: NextPage = () => {
         />
       </ContentBlock>
       <ContentBlock>
-        <Heading lvl="h2">
-          I like tinkering with my development{" "}
-          <Link
-            text="setup"
-            href="https://github.com/damianveltkamp/dotfiles"
-            isExternal={true}
-          />
-        </Heading>
-        <Paragraph>
-          Always looking at optimizing my workflow and automating repetitive
-          tasks. Thats why I picked up skills like zsh scripting and work with
-          tools such as{" "}
-          <Link text="Neovim" href="https://neovim.io/" isExternal={true} /> and{" "}
-          <Link
-            text="Tmux"
-            href="https://github.com/tmux/tmux/wiki"
-            isExternal={true}
-          />
-          . In my terminal I feel most confident and I don&#39;t need any other
-          tool besides it.
-        </Paragraph>
-      </ContentBlock>
-      <ContentBlock>
         <Heading lvl="h2">Communication and multimedia design</Heading>
         <Paragraph>
           I graduated in Communication and multimedia design where I followed a
